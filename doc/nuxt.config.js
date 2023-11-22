@@ -1,8 +1,10 @@
 import colors from 'vuetify/lib/util/colors'
 const path = require('path')
 
+const targetURL = new URL(process.env.TARGET || 'http://localhost:3133/')
+
 module.exports = {
-  ssr: false,
+  ssr: true,
   build: {
     transpile: [/@koumoul/, 'tiptap-vuetify', /lib/],
     extend (config, ctx) {
@@ -13,7 +15,8 @@ module.exports = {
     }
   },
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/sitemap'
   ],
   buildModules: [
     '@nuxtjs/vuetify'
@@ -23,6 +26,9 @@ module.exports = {
     { src: '~/plugins/mask.js', ssr: false },
     { src: '~/plugins/tiptap-vuetify.js', ssr: false }
   ],
+  sitemap: {
+    hostname: targetURL.origin
+  },
   vuetify: {
     // uncomment to test mdiSvg support
     /* defaultAssets: {
@@ -41,15 +47,14 @@ module.exports = {
     }
   },
   router: {
-    base: process.env.BASE || '/'
+    base: targetURL.pathname
   },
   head: {
     title: 'vjsf - Documentation',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: `vjsf - Documentation` },
-      { hid: 'robots', name: 'robots', content: 'noindex' }
+      { hid: 'description', name: 'description', content: `vjsf - Documentation` }
     ],
     link: [{
       rel: 'stylesheet',
