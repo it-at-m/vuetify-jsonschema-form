@@ -1754,6 +1754,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                   </div>
                 </label>
                 <input
+                  aria-required="true"
                   id="requiredStringProp"
                   type="text"
                 />
@@ -1980,6 +1981,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                   </div>
                 </label>
                 <input
+                  aria-required="true"
                   id="limitedString"
                   type="text"
                 />
@@ -2052,6 +2054,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                   class="v-select__selections"
                 >
                   <input
+                    aria-required="true"
                     autocomplete="off"
                     id="limitedArray"
                     type="string"
@@ -3966,6 +3969,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-0-titleProp"
                                       type="text"
@@ -4007,6 +4011,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-0-stringProp"
                                       type="text"
@@ -4114,6 +4119,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                                                           </div>
                                                         </label>
                                                         <input
+                                                          aria-required="true"
                                                           disabled="disabled"
                                                           id="objectArrayProp-item-0-nestedObjectArrayProp-item-0-titleProp"
                                                           type="text"
@@ -4276,6 +4282,7 @@ exports[`Examples used as simple test cases External validator 1`] = `
                   </div>
                 </label>
                 <input
+                  aria-required="true"
                   id="stringPropWithFormats"
                   type="text"
                 />
@@ -4412,6 +4419,7 @@ exports[`Examples used as simple test cases External validator 1`] = `
                                     </div>
                                   </label>
                                   <input
+                                    aria-required="true"
                                     id="invalidSection-stringProp2"
                                     type="text"
                                   />
@@ -5186,6 +5194,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-0-titleProp"
                                       type="text"
@@ -5590,6 +5599,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-0-currentOneOf-childArrayProp-item-0-titleProp"
                                                               type="text"
@@ -5680,6 +5690,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-0-currentOneOf-childArrayProp-item-1-titleProp"
                                                               type="text"
@@ -5816,6 +5827,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-1-titleProp"
                                       type="text"
@@ -6216,6 +6228,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-2-titleProp"
                                       type="text"
@@ -6620,6 +6633,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-2-currentOneOf-childArrayProp-item-0-titleProp"
                                                               type="text"
@@ -6710,6 +6724,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-2-currentOneOf-childArrayProp-item-1-titleProp"
                                                               type="text"
@@ -6846,6 +6861,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-3-titleProp"
                                       type="text"
@@ -7246,6 +7262,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-4-titleProp"
                                       type="text"
@@ -7650,6 +7667,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-4-currentOneOf-childArrayProp-item-0-titleProp"
                                                               type="text"
@@ -7740,6 +7758,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-4-currentOneOf-childArrayProp-item-1-titleProp"
                                                               type="text"
@@ -7876,6 +7895,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-5-titleProp"
                                       type="text"
@@ -8276,6 +8296,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-6-titleProp"
                                       type="text"
@@ -8680,6 +8701,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-6-currentOneOf-childArrayProp-item-0-titleProp"
                                                               type="text"
@@ -8770,6 +8792,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-6-currentOneOf-childArrayProp-item-1-titleProp"
                                                               type="text"
@@ -8906,6 +8929,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-7-titleProp"
                                       type="text"
@@ -9306,6 +9330,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-8-titleProp"
                                       type="text"
@@ -9710,6 +9735,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-8-currentOneOf-childArrayProp-item-0-titleProp"
                                                               type="text"
@@ -9800,6 +9826,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                               </div>
                                                             </label>
                                                             <input
+                                                              aria-required="true"
                                                               disabled="disabled"
                                                               id="objectArrayProp-item-8-currentOneOf-childArrayProp-item-1-titleProp"
                                                               type="text"
@@ -9936,6 +9963,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-9-titleProp"
                                       type="text"
@@ -10554,6 +10582,7 @@ exports[`Examples used as simple test cases Localization 1`] = `
                   class="v-select__selections"
                 >
                   <input
+                    aria-required="true"
                     autocomplete="off"
                     id="selectAjaxWithQuery"
                     type="text"
@@ -10759,6 +10788,7 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       disabled="disabled"
                                       id="objectArrayProp-item-0-titleProp"
                                       type="text"
@@ -14057,6 +14087,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                           </div>
                                         </label>
                                         <input
+                                          aria-required="true"
                                           id="stepperProp-allOf-0-stringProp1"
                                           type="text"
                                         />
@@ -14153,6 +14184,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                           </div>
                                         </label>
                                         <input
+                                          aria-required="true"
                                           id="stepperProp-allOf-1-stringProp2"
                                           type="text"
                                         />
@@ -14278,6 +14310,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                         </div>
                                       </label>
                                       <input
+                                        aria-required="true"
                                         id="verticalStepperProp-allOf-0-stringProp1"
                                         type="text"
                                       />
@@ -14389,6 +14422,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                         </div>
                                       </label>
                                       <input
+                                        aria-required="true"
                                         id="verticalStepperProp-allOf-1-stringProp2"
                                         type="text"
                                       />
@@ -14841,6 +14875,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                           </div>
                                         </label>
                                         <input
+                                          aria-required="true"
                                           id="tabs-section1-requiredStringProp1"
                                           type="text"
                                         />
@@ -14932,6 +14967,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                           </div>
                                         </label>
                                         <input
+                                          aria-required="true"
                                           id="tabs-section2-requiredStringProp2"
                                           type="text"
                                         />
@@ -15052,6 +15088,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       id="panels-allOf-0-requiredStringProp1"
                                       type="text"
                                     />
@@ -15149,6 +15186,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                       </div>
                                     </label>
                                     <input
+                                      aria-required="true"
                                       id="panels-allOf-1-requiredStringProp2"
                                       type="text"
                                     />
@@ -19058,6 +19096,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
                         </div>
                       </label>
                       <input
+                        aria-required="true"
                         id="numberTupleProp-0"
                         type="number"
                       />
@@ -19111,6 +19150,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
                         </div>
                       </label>
                       <input
+                        aria-required="true"
                         id="numberTupleProp-1"
                         type="number"
                       />
@@ -19181,6 +19221,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
                         </div>
                       </label>
                       <input
+                        aria-required="true"
                         id="stringTupleProp-0"
                         type="text"
                       />
