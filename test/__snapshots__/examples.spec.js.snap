@@ -1746,6 +1746,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                     <span>
                       I'm a required string
                       <span
+                        aria-hidden="true"
                         style="font-weight: bold; color: red"
                       >
                          *
@@ -1973,6 +1974,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                     <span>
                       I'm a string with min/max length and bad initial value
                       <span
+                        aria-hidden="true"
                         style="font-weight: bold; color: red"
                       >
                          *
@@ -2043,6 +2045,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                     <span>
                       I'm an array with min/max items
                       <span
+                        aria-hidden="true"
                         style="font-weight: bold; color: red"
                       >
                          *
@@ -3961,6 +3964,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -4003,6 +4007,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                                         <span>
                                           I'm another required string
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -4111,6 +4116,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                                                             <span>
                                                               I'm a required string used as title
                                                               <span
+                                                                aria-hidden="true"
                                                                 style="font-weight: bold; color: red"
                                                               >
                                                                  *
@@ -4274,6 +4280,7 @@ exports[`Examples used as simple test cases External validator 1`] = `
                     <span>
                       I'm a string with combined validation rules
                       <span
+                        aria-hidden="true"
                         style="font-weight: bold; color: red"
                       >
                          *
@@ -4411,6 +4418,7 @@ exports[`Examples used as simple test cases External validator 1`] = `
                                       <span>
                                         I'm a required string prop
                                         <span
+                                          aria-hidden="true"
                                           style="font-weight: bold; color: red"
                                         >
                                            *
@@ -5186,6 +5194,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -5591,6 +5600,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -5682,6 +5692,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -5819,6 +5830,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -6220,6 +6232,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -6625,6 +6638,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -6716,6 +6730,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -6853,6 +6868,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -7254,6 +7270,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -7659,6 +7676,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -7750,6 +7768,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -7887,6 +7906,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -8288,6 +8308,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -8693,6 +8714,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -8784,6 +8806,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -8921,6 +8944,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -9322,6 +9346,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -9727,6 +9752,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -9818,6 +9844,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                                                 <span>
                                                                   I'm a required string used as title
                                                                   <span
+                                                                    aria-hidden="true"
                                                                     style="font-weight: bold; color: red"
                                                                   >
                                                                      *
@@ -9955,6 +9982,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -10571,6 +10599,7 @@ exports[`Examples used as simple test cases Localization 1`] = `
                     <span>
                       Je suis un champ de recherche
                       <span
+                        aria-hidden="true"
                         style="font-weight: bold; color: red"
                       >
                          *
@@ -10780,6 +10809,7 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                                         <span>
                                           I'm a required string used as title
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -14079,6 +14109,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                             <span>
                                               I'm a required property in section 1
                                               <span
+                                                aria-hidden="true"
                                                 style="font-weight: bold; color: red"
                                               >
                                                  *
@@ -14176,6 +14207,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                             <span>
                                               I'm a required property in section 2
                                               <span
+                                                aria-hidden="true"
                                                 style="font-weight: bold; color: red"
                                               >
                                                  *
@@ -14302,6 +14334,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                           <span>
                                             I'm a required property in section 1
                                             <span
+                                              aria-hidden="true"
                                               style="font-weight: bold; color: red"
                                             >
                                                *
@@ -14414,6 +14447,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                                           <span>
                                             I'm a required property in section 2
                                             <span
+                                              aria-hidden="true"
                                               style="font-weight: bold; color: red"
                                             >
                                                *
@@ -14867,6 +14901,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                             <span>
                                               I'm a required string with min/max length
                                               <span
+                                                aria-hidden="true"
                                                 style="font-weight: bold; color: red"
                                               >
                                                  *
@@ -14959,6 +14994,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                             <span>
                                               I'm another required string
                                               <span
+                                                aria-hidden="true"
                                                 style="font-weight: bold; color: red"
                                               >
                                                  *
@@ -15080,6 +15116,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                         <span>
                                           I'm a required string
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -15178,6 +15215,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
                                         <span>
                                           I'm a required string with min/max length
                                           <span
+                                            aria-hidden="true"
                                             style="font-weight: bold; color: red"
                                           >
                                              *
@@ -19088,6 +19126,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
                           <span>
                             I'm a number
                             <span
+                              aria-hidden="true"
                               style="font-weight: bold; color: red"
                             >
                                *
@@ -19142,6 +19181,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
                           <span>
                             I'm another number
                             <span
+                              aria-hidden="true"
                               style="font-weight: bold; color: red"
                             >
                                *
@@ -19213,6 +19253,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
                           <span>
                             I'm a required string
                             <span
+                              aria-hidden="true"
                               style="font-weight: bold; color: red"
                             >
                                *
