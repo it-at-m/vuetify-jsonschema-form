@@ -208,6 +208,23 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                                 <div
                                   class="v-select__slot"
                                 >
+                                  <label
+                                    class="v-label v-label--active v-label--is-disabled theme--light"
+                                    for="array1-item-0"
+                                    style="left: 0px; position: absolute;"
+                                  >
+                                    <div>
+                                      <span>
+                                        item-0
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
+                                  </label>
                                   <div
                                     class="v-select__selections"
                                   >
@@ -463,6 +480,23 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                                 <div
                                   class="v-select__slot"
                                 >
+                                  <label
+                                    class="v-label v-label--active v-label--is-disabled theme--light"
+                                    for="array1-item-1"
+                                    style="left: 0px; position: absolute;"
+                                  >
+                                    <div>
+                                      <span>
+                                        item-1
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
+                                  </label>
                                   <div
                                     class="v-select__selections"
                                   >
@@ -1014,6 +1048,23 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                                 <div
                                   class="v-select__slot"
                                 >
+                                  <label
+                                    class="v-label v-label--active v-label--is-disabled theme--light"
+                                    for="arrayProp2-item-0"
+                                    style="left: 0px; position: absolute;"
+                                  >
+                                    <div>
+                                      <span>
+                                        item-0
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
+                                  </label>
                                   <div
                                     class="v-select__selections"
                                   >
@@ -3009,7 +3060,17 @@ exports[`Examples used as simple test cases Conditional content (expression) 1`]
                 for="root"
                 style="left: 0px; position: absolute;"
               >
-                I'm a choice limited by expressions in a oneOf
+                <div>
+                  <span>
+                    root
+                    <span
+                      aria-hidden="true"
+                      style="font-weight: bold; color: red"
+                    >
+                       *
+                    </span>
+                  </span>
+                </div>
               </label>
               <div
                 class="v-select__selections"
@@ -4992,6 +5053,23 @@ exports[`Examples used as simple test cases Ignore values with wrong type 1`] = 
             <div
               class="v-select__slot"
             >
+              <label
+                class="v-label theme--light"
+                for="root"
+                style="left: 0px; position: absolute;"
+              >
+                <div>
+                  <span>
+                    root
+                    <span
+                      aria-hidden="true"
+                      style="font-weight: bold; color: red"
+                    >
+                       *
+                    </span>
+                  </span>
+                </div>
+              </label>
               <div
                 class="v-select__selections"
               >
@@ -5395,7 +5473,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-0"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-0
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -6031,7 +6119,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-1"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-1
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -6433,7 +6531,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-2"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-2
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -7069,7 +7177,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-3"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-3
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -7471,7 +7589,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-4"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-4
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -8107,7 +8235,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-5"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-5
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -8509,7 +8647,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-6"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-6
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -9145,7 +9293,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-7"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-7
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -9547,7 +9705,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-8"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-8
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -10183,7 +10351,17 @@ exports[`Examples used as simple test cases Large form 1`] = `
                                     for="objectArrayProp-item-9"
                                     style="left: 0px; position: absolute;"
                                   >
-                                    Sub object type
+                                    <div>
+                                      <span>
+                                        item-9
+                                        <span
+                                          aria-hidden="true"
+                                          style="font-weight: bold; color: red"
+                                        >
+                                           *
+                                        </span>
+                                      </span>
+                                    </div>
                                   </label>
                                   <div
                                     class="v-select__selections"
@@ -11104,7 +11282,17 @@ exports[`Examples used as simple test cases Nested allOfs and oneOfs 1`] = `
                 for="root"
                 style="left: 0px; position: absolute;"
               >
-                A section with oneOf
+                <div>
+                  <span>
+                    A section with oneOf
+                    <span
+                      aria-hidden="true"
+                      style="font-weight: bold; color: red"
+                    >
+                       *
+                    </span>
+                  </span>
+                </div>
               </label>
               <div
                 class="v-select__selections"
@@ -14697,7 +14885,17 @@ exports[`Examples used as simple test cases Sections as tabs 1`] = `
                                   for="allOf-1"
                                   style="left: 0px; position: absolute;"
                                 >
-                                  type 1
+                                  <div>
+                                    <span>
+                                      I'm another section
+                                      <span
+                                        aria-hidden="true"
+                                        style="font-weight: bold; color: red"
+                                      >
+                                         *
+                                      </span>
+                                    </span>
+                                  </div>
                                 </label>
                                 <div
                                   class="v-select__selections"
@@ -17022,7 +17220,17 @@ exports[`Examples used as simple test cases Selects of sub-schemas 1`] = `
                 for="root"
                 style="left: 0px; position: absolute;"
               >
-                Select a sub-schema
+                <div>
+                  <span>
+                    Select a sub-schema
+                    <span
+                      aria-hidden="true"
+                      style="font-weight: bold; color: red"
+                    >
+                       *
+                    </span>
+                  </span>
+                </div>
               </label>
               <div
                 class="v-select__selections"
