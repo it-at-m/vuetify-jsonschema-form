@@ -94,6 +94,7 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                 <!---->
               </div>
               <button
+                aria-label="array1 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array1--add-button"
                 type="button"
@@ -149,6 +150,7 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                           <!---->
                         </div>
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren array11"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="array1-0--edit-button"
                           type="button"
@@ -421,6 +423,7 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                           <!---->
                         </div>
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren array12"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="array1-1--edit-button"
                           type="button"
@@ -695,6 +698,7 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                 arrayProp
               </label>
               <button
+                aria-label="arrayProp neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp--add-button"
                 type="button"
@@ -745,6 +749,7 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren arrayProp1"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="arrayProp-0--edit-button"
                           type="button"
@@ -938,6 +943,7 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                 arrayProp2
               </label>
               <button
+                aria-label="arrayProp2 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp2--add-button"
                 type="button"
@@ -988,6 +994,7 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren arrayProp21"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="arrayProp2-0--edit-button"
                           type="button"
@@ -1634,14 +1641,16 @@ exports[`Examples used as simple test cases Basic types 1`] = `
                   class="v-select__selections"
                 >
                   <span
+                    aria-label="item 1"
                     class="v-chip v-chip--removable theme--light v-size--default default"
+                    tabindex="0"
                   >
                     <span
                       class="v-chip__content"
                     >
                       item 1
                       <button
-                        aria-label="Close"
+                        aria-label="item 1 entfernen"
                         class="v-icon notranslate v-chip__close v-icon--link v-icon--right mdi mdi-close-circle theme--light"
                         style="font-size: 18px;"
                         type="button"
@@ -1649,14 +1658,16 @@ exports[`Examples used as simple test cases Basic types 1`] = `
                     </span>
                   </span>
                   <span
+                    aria-label="item 2"
                     class="v-chip v-chip--removable theme--light v-size--default default"
+                    tabindex="0"
                   >
                     <span
                       class="v-chip__content"
                     >
                       item 2
                       <button
-                        aria-label="Close"
+                        aria-label="item 2 entfernen"
                         class="v-icon notranslate v-chip__close v-icon--link v-icon--right mdi mdi-close-circle theme--light"
                         style="font-size: 18px;"
                         type="button"
@@ -2227,6 +2238,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                 <!---->
               </div>
               <button
+                aria-label="I'm an array of objects with min/max items neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="limitedObjectsArray--add-button"
                 type="button"
@@ -3851,6 +3863,7 @@ exports[`Examples used as simple test cases Editable array 1`] = `
                 <!---->
               </div>
               <button
+                aria-label="I'm an array of objects neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -3907,6 +3920,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                 I'm an array of objects
               </label>
               <button
+                aria-label="I'm an array of objects neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -3957,6 +3971,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects1"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-0--edit-button"
                           type="button"
@@ -5154,6 +5169,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                 I'm an array of objects
               </label>
               <button
+                aria-label="I'm an array of objects neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -5204,6 +5220,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects1"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-0--edit-button"
                           type="button"
@@ -5850,6 +5867,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects2"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-1--edit-button"
                           type="button"
@@ -6262,6 +6280,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects3"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-2--edit-button"
                           type="button"
@@ -6908,6 +6927,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects4"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-3--edit-button"
                           type="button"
@@ -7320,6 +7340,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects5"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-4--edit-button"
                           type="button"
@@ -7966,6 +7987,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects6"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-5--edit-button"
                           type="button"
@@ -8378,6 +8400,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects7"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-6--edit-button"
                           type="button"
@@ -9024,6 +9047,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects8"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-7--edit-button"
                           type="button"
@@ -9436,6 +9460,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects9"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-8--edit-button"
                           type="button"
@@ -10082,6 +10107,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects10"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-9--edit-button"
                           type="button"
@@ -10869,6 +10895,7 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                 I'm an array of objects
               </label>
               <button
+                aria-label="I'm an array of objects neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -10919,6 +10946,7 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects1"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="objectArrayProp-0--edit-button"
                           type="button"
@@ -11027,6 +11055,7 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                                   </label>
                                   <div
                                     class="v-card v-card--flat v-sheet theme--light px-0"
+                                    tabindex="0"
                                   >
                                     <div
                                       class="v-card__text px-0 py-1"
@@ -11904,6 +11933,7 @@ exports[`Examples used as simple test cases Prefilled arrays 1`] = `
                           <!---->
                         </div>
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array filled by HTTP request1"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="filledArray-0--edit-button"
                           type="button"
@@ -12113,6 +12143,7 @@ exports[`Examples used as simple test cases Prefilled arrays 1`] = `
                           <!---->
                         </div>
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array filled by HTTP request2"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="filledArray-1--edit-button"
                           type="button"
@@ -12307,7 +12338,7 @@ exports[`Examples used as simple test cases Read only content 1`] = `
         class="col col-12 vjsf-property vjsf-property-readOnlyProp pa-0 read-only"
       >
         <div
-          class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-disabled theme--light v-text-field v-text-field--is-booted"
+          class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-readonly theme--light v-text-field v-text-field--filled v-text-field--is-booted v-text-field--enclosed"
         >
           <div
             class="v-input__control"
@@ -12319,15 +12350,16 @@ exports[`Examples used as simple test cases Read only content 1`] = `
                 class="v-text-field__slot"
               >
                 <label
-                  class="v-label v-label--active v-label--is-disabled theme--light"
+                  class="v-label v-label--active theme--light"
                   for="readOnlyProp"
                   style="left: 0px; position: absolute;"
                 >
                   I'm a read-only string
                 </label>
                 <input
-                  disabled="disabled"
+                  aria-readonly="true"
                   id="readOnlyProp"
+                  readonly="readonly"
                   type="text"
                 />
               </div>
@@ -12353,7 +12385,7 @@ exports[`Examples used as simple test cases Read only content 1`] = `
               class="col col-12 vjsf-property vjsf-property-readOnlySection-stringProp pa-0 read-only"
             >
               <div
-                class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-disabled theme--light v-text-field v-text-field--is-booted"
+                class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-readonly theme--light v-text-field v-text-field--filled v-text-field--is-booted v-text-field--enclosed"
               >
                 <div
                   class="v-input__control"
@@ -12365,15 +12397,16 @@ exports[`Examples used as simple test cases Read only content 1`] = `
                       class="v-text-field__slot"
                     >
                       <label
-                        class="v-label v-label--active v-label--is-disabled theme--light"
+                        class="v-label v-label--active theme--light"
                         for="readOnlySection-stringProp"
                         style="left: 0px; position: absolute;"
                       >
                         I'm a string in a read-only section
                       </label>
                       <input
-                        disabled="disabled"
+                        aria-readonly="true"
                         id="readOnlySection-stringProp"
+                        readonly="readonly"
                         type="text"
                       />
                     </div>
@@ -12633,6 +12666,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                 array1
               </label>
               <button
+                aria-label="array1 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array1--add-button"
                 type="button"
@@ -12682,6 +12716,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren array11"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="array1-0--edit-button"
                           type="button"
@@ -12930,6 +12965,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren array12"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="array1-1--edit-button"
                           type="button"
@@ -13139,6 +13175,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                 array2
               </label>
               <button
+                aria-label="array2 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array2--add-button"
                 type="button"
@@ -13188,6 +13225,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren array21"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="array2-0--edit-button"
                           type="button"
@@ -13294,6 +13332,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                 array3
               </label>
               <button
+                aria-label="array3 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array3--add-button"
                 type="button"
@@ -13343,6 +13382,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren array31"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="array3-0--edit-button"
                           type="button"
@@ -13449,7 +13489,7 @@ exports[`Examples used as simple test cases Readonly select with icons 1`] = `
         class="col col-12 vjsf-property vjsf-property-iconOneOf pa-0 read-only"
       >
         <div
-          class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-disabled theme--light v-text-field v-text-field--is-booted v-select"
+          class="v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-readonly theme--light v-text-field v-text-field--filled v-text-field--is-booted v-text-field--enclosed v-select"
         >
           <div
             class="v-input__control"
@@ -13465,7 +13505,7 @@ exports[`Examples used as simple test cases Readonly select with icons 1`] = `
                 class="v-select__slot"
               >
                 <label
-                  class="v-label v-label--active v-label--is-disabled theme--light"
+                  class="v-label v-label--active theme--light"
                   for="iconOneOf"
                   style="left: 0px; position: absolute;"
                 >
@@ -13493,9 +13533,8 @@ exports[`Examples used as simple test cases Readonly select with icons 1`] = `
                     </span>
                   </div>
                   <input
-                    aria-readonly="undefined"
+                    aria-readonly="true"
                     autocomplete="off"
-                    disabled="disabled"
                     id="iconOneOf"
                     readonly="readonly"
                     type="text"
@@ -13509,8 +13548,7 @@ exports[`Examples used as simple test cases Readonly select with icons 1`] = `
                   >
                     <button
                       aria-label="clear icon"
-                      class="v-icon notranslate v-icon--disabled v-icon--link mdi mdi-close theme--light"
-                      disabled="disabled"
+                      class="v-icon notranslate v-icon--link mdi mdi-close theme--light"
                       type="button"
                     />
                   </div>
@@ -13523,7 +13561,7 @@ exports[`Examples used as simple test cases Readonly select with icons 1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      class="v-icon notranslate v-icon--disabled mdi mdi-menu-down theme--light"
+                      class="v-icon notranslate mdi mdi-menu-down theme--light"
                     />
                   </div>
                 </div>
@@ -18563,6 +18601,7 @@ exports[`Examples used as simple test cases Selects with relative dependencies 1
             <!---->
           </div>
           <button
+            aria-label="I'm an array of objects neues Objekt hinzufuegen"
             class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
             id="root--add-button"
             type="button"
@@ -18713,6 +18752,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                 Array 1
               </label>
               <button
+                aria-label="Array 1 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp1--add-button"
                 type="button"
@@ -18763,6 +18803,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren Array 11"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="arrayProp1-0--edit-button"
                           type="button"
@@ -18878,6 +18919,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren Array 12"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="arrayProp1-1--edit-button"
                           type="button"
@@ -18984,6 +19026,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                 Array 2
               </label>
               <button
+                aria-label="Array 2 neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp2--add-button"
                 type="button"
@@ -19034,6 +19077,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           class="spacer"
                         />
                         <button
+                          aria-label="Bearbeitungsmodus aktivieren Array 21"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
                           id="arrayProp2-0--edit-button"
                           type="button"
@@ -19156,6 +19200,7 @@ exports[`Examples used as simple test cases Simple array with a required prop 1`
                 I'm an array of objects
               </label>
               <button
+                aria-label="I'm an array of objects neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp--add-button"
                 type="button"
@@ -19719,6 +19764,7 @@ exports[`Examples used as simple test cases infinite loop 1`] = `
                 Liste d'appels extérieurs
               </label>
               <button
+                aria-label="Liste d'appels extérieurs neues Objekt hinzufuegen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="webhooks--add-button"
                 type="button"
