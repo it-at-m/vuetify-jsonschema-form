@@ -94,7 +94,7 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                 <!---->
               </div>
               <button
-                aria-label="array1 neues Objekt hinzufuegen"
+                aria-label="array1 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array1--add-button"
                 type="button"
@@ -150,8 +150,8 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                           <!---->
                         </div>
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren array11"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren array1"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="array1-0--edit-button"
                           type="button"
                         >
@@ -165,24 +165,37 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="array1 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="array1 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -423,8 +436,8 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                           <!---->
                         </div>
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren array12"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren array1"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="array1-1--edit-button"
                           type="button"
                         >
@@ -438,24 +451,37 @@ exports[`Examples used as simple test cases Array inside a anyof with a value ou
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="array1 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="array1 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -698,7 +724,7 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                 arrayProp
               </label>
               <button
-                aria-label="arrayProp neues Objekt hinzufuegen"
+                aria-label="arrayProp neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp--add-button"
                 type="button"
@@ -749,8 +775,8 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren arrayProp1"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren arrayProp"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="arrayProp-0--edit-button"
                           type="button"
                         >
@@ -764,24 +790,37 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="arrayProp duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="arrayProp delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -943,7 +982,7 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                 arrayProp2
               </label>
               <button
-                aria-label="arrayProp2 neues Objekt hinzufuegen"
+                aria-label="arrayProp2 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp2--add-button"
                 type="button"
@@ -994,8 +1033,8 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren arrayProp21"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren arrayProp2"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="arrayProp2-0--edit-button"
                           type="button"
                         >
@@ -1009,24 +1048,37 @@ exports[`Examples used as simple test cases Array item titles from oneOf 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="arrayProp2 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="arrayProp2 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -1635,7 +1687,12 @@ exports[`Examples used as simple test cases Basic types 1`] = `
                   for="stringArrayProp"
                   style="left: 0px; position: absolute;"
                 >
-                  I'm an array of strings
+                  <span
+                    aria-label="I'm an array of strings"
+                    tabindex="0"
+                  >
+                    I'm an array of strings
+                  </span>
                 </label>
                 <div
                   class="v-select__selections"
@@ -1731,7 +1788,12 @@ exports[`Examples used as simple test cases Basic types 1`] = `
                   for="integerArrayProp"
                   style="left: 0px; position: absolute;"
                 >
-                  I'm an array of integers
+                  <span
+                    aria-label="I'm an array of integers"
+                    tabindex="0"
+                  >
+                    I'm an array of integers
+                  </span>
                 </label>
                 <div
                   class="v-select__selections"
@@ -2114,6 +2176,19 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                       </span>
                     </span>
                   </div>
+                  <span
+                    aria-label="I'm an array with min/max items"
+                    aria-required="true"
+                    tabindex="0"
+                  >
+                    I'm an array with min/max items
+                    <span
+                      aria-hidden="true"
+                      style="font-weight: bold; color: red"
+                    >
+                       *
+                    </span>
+                  </span>
                 </label>
                 <div
                   class="v-select__selections"
@@ -2175,7 +2250,12 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                   for="patternStringArray"
                   style="left: 0px; position: absolute;"
                 >
-                  I'm an array whose items have a pattern
+                  <span
+                    aria-label="I'm an array whose items have a pattern"
+                    tabindex="0"
+                  >
+                    I'm an array whose items have a pattern
+                  </span>
                 </label>
                 <div
                   class="v-select__selections"
@@ -2238,7 +2318,7 @@ exports[`Examples used as simple test cases Basic validation 1`] = `
                 <!---->
               </div>
               <button
-                aria-label="I'm an array of objects with min/max items neues Objekt hinzufuegen"
+                aria-label="I'm an array of objects with min/max items neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="limitedObjectsArray--add-button"
                 type="button"
@@ -3661,6 +3741,7 @@ exports[`Examples used as simple test cases Default values 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a section with a default value 
         </span>
@@ -3863,7 +3944,7 @@ exports[`Examples used as simple test cases Editable array 1`] = `
                 <!---->
               </div>
               <button
-                aria-label="I'm an array of objects neues Objekt hinzufuegen"
+                aria-label="I'm an array of objects neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -3920,7 +4001,7 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                 I'm an array of objects
               </label>
               <button
-                aria-label="I'm an array of objects neues Objekt hinzufuegen"
+                aria-label="I'm an array of objects neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -3971,8 +4052,8 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects1"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-0--edit-button"
                           type="button"
                         >
@@ -3986,24 +4067,37 @@ exports[`Examples used as simple test cases Editable array inline 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -4467,6 +4561,7 @@ exports[`Examples used as simple test cases External validator 1`] = `
                       >
                         <div
                           class="col col-12 pa-0"
+                          tabindex="0"
                         >
                           This section has a required property that is not actually defined in the schema, it can never be valid.
                         </div>
@@ -5169,7 +5264,7 @@ exports[`Examples used as simple test cases Large form 1`] = `
                 I'm an array of objects
               </label>
               <button
-                aria-label="I'm an array of objects neues Objekt hinzufuegen"
+                aria-label="I'm an array of objects neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -5220,8 +5315,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects1"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-0--edit-button"
                           type="button"
                         >
@@ -5235,24 +5330,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -5867,8 +5975,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects2"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-1--edit-button"
                           type="button"
                         >
@@ -5882,24 +5990,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -6280,8 +6401,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects3"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-2--edit-button"
                           type="button"
                         >
@@ -6295,24 +6416,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -6927,8 +7061,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects4"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-3--edit-button"
                           type="button"
                         >
@@ -6942,24 +7076,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -7340,8 +7487,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects5"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-4--edit-button"
                           type="button"
                         >
@@ -7355,24 +7502,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -7987,8 +8147,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects6"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-5--edit-button"
                           type="button"
                         >
@@ -8002,24 +8162,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -8400,8 +8573,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects7"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-6--edit-button"
                           type="button"
                         >
@@ -8415,24 +8588,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -9047,8 +9233,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects8"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-7--edit-button"
                           type="button"
                         >
@@ -9062,24 +9248,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -9460,8 +9659,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects9"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-8--edit-button"
                           type="button"
                         >
@@ -9475,24 +9674,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -10107,8 +10319,8 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects10"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-9--edit-button"
                           type="button"
                         >
@@ -10122,24 +10334,37 @@ exports[`Examples used as simple test cases Large form 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -10895,7 +11120,7 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                 I'm an array of objects
               </label>
               <button
-                aria-label="I'm an array of objects neues Objekt hinzufuegen"
+                aria-label="I'm an array of objects neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="objectArrayProp--add-button"
                 type="button"
@@ -10946,8 +11171,8 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects1"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array of objects"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="objectArrayProp-0--edit-button"
                           type="button"
                         >
@@ -10961,24 +11186,37 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="I'm an array of objects duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="I'm an array of objects delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -11051,7 +11289,12 @@ exports[`Examples used as simple test cases Markdown editor (beta) 1`] = `
                                     for=input-x
                                     style="left: 0px; position: relative;"
                                   >
-                                    I'm a markdown string
+                                    <span
+                                      aria-label="I'm a markdown string"
+                                      tabindex="0"
+                                    >
+                                      I'm a markdown string
+                                    </span>
                                   </label>
                                   <div
                                     class="v-card v-card--flat v-sheet theme--light px-0"
@@ -11933,8 +12176,8 @@ exports[`Examples used as simple test cases Prefilled arrays 1`] = `
                           <!---->
                         </div>
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array filled by HTTP request1"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array filled by HTTP request"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="filledArray-0--edit-button"
                           type="button"
                         >
@@ -12143,8 +12386,8 @@ exports[`Examples used as simple test cases Prefilled arrays 1`] = `
                           <!---->
                         </div>
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren I'm an array filled by HTTP request2"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren I'm an array filled by HTTP request"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="filledArray-1--edit-button"
                           type="button"
                         >
@@ -12372,6 +12615,7 @@ exports[`Examples used as simple test cases Read only content 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a section with readOnly=true in schema 
         </span>
@@ -12447,6 +12691,7 @@ exports[`Examples used as simple test cases Read only content 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a section with disableAll=true in options 
         </span>
@@ -12509,6 +12754,7 @@ exports[`Examples used as simple test cases Read only content 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a section whose read-only content is hidden 
         </span>
@@ -12572,6 +12818,7 @@ exports[`Examples used as simple test cases Read only content 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a section whose read-only content is deleted 
         </span>
@@ -12666,7 +12913,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                 array1
               </label>
               <button
-                aria-label="array1 neues Objekt hinzufuegen"
+                aria-label="array1 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array1--add-button"
                 type="button"
@@ -12716,8 +12963,8 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren array11"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren array1"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="array1-0--edit-button"
                           type="button"
                         >
@@ -12731,24 +12978,37 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="array1 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="array1 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -12965,8 +13225,8 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren array12"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren array1"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="array1-1--edit-button"
                           type="button"
                         >
@@ -12980,24 +13240,37 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="array1 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="array1 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -13175,7 +13448,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                 array2
               </label>
               <button
-                aria-label="array2 neues Objekt hinzufuegen"
+                aria-label="array2 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array2--add-button"
                 type="button"
@@ -13225,8 +13498,8 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren array21"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren array2"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="array2-0--edit-button"
                           type="button"
                         >
@@ -13240,24 +13513,37 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="array2 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="array2 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -13332,7 +13618,7 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                 array3
               </label>
               <button
-                aria-label="array3 neues Objekt hinzufuegen"
+                aria-label="array3 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="array3--add-button"
                 type="button"
@@ -13382,8 +13668,8 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren array31"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren array3"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="array3-0--edit-button"
                           type="button"
                         >
@@ -13397,24 +13683,37 @@ exports[`Examples used as simple test cases Readonly rendering options 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="array3 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="array3 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -13539,19 +13838,6 @@ exports[`Examples used as simple test cases Readonly select with icons 1`] = `
                     readonly="readonly"
                     type="text"
                   />
-                </div>
-                <div
-                  class="v-input__append-inner"
-                >
-                  <div
-                    class="v-input__icon v-input__icon--clear"
-                  >
-                    <button
-                      aria-label="clear icon"
-                      class="v-icon notranslate v-icon--link mdi mdi-close theme--light"
-                      type="button"
-                    />
-                  </div>
                 </div>
                 <div
                   class="v-input__append-inner"
@@ -13758,6 +14044,7 @@ exports[`Examples used as simple test cases Sections 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a section 
         </span>
@@ -13769,6 +14056,7 @@ exports[`Examples used as simple test cases Sections 1`] = `
           >
             <div
               class="col col-12 pa-0"
+              tabindex="0"
             >
               I'm a description shown as a paragraph on top of section
             </div>
@@ -13824,6 +14112,7 @@ exports[`Examples used as simple test cases Sections 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm another section 
         </span>
@@ -13882,6 +14171,7 @@ exports[`Examples used as simple test cases Sections 1`] = `
             >
               <span
                 class="py-2 subtitle-1"
+                tabindex="0"
               >
                 I'm a subsection 
               </span>
@@ -13943,6 +14233,7 @@ exports[`Examples used as simple test cases Sections 1`] = `
             >
               <span
                 class="py-2 subtitle-1"
+                tabindex="0"
               >
                 I'm another subsection 
               </span>
@@ -14020,6 +14311,7 @@ exports[`Examples used as simple test cases Sections as expansion panels 1`] = `
     >
       <div
         class="col col-12 pa-0"
+        tabindex="0"
       >
         I'm an object with sections rendered as expansions panels with the \`tile\` and \`mandatory\` options.
       </div>
@@ -14066,6 +14358,7 @@ exports[`Examples used as simple test cases Sections as expansion panels 1`] = `
                   >
                     <div
                       class="col col-12 pa-0"
+                      tabindex="0"
                     >
                       I'm a description shown as a paragraph on top of section
                     </div>
@@ -14229,6 +14522,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm an object with sections rendered in a stepper. 
         </span>
@@ -14308,6 +14602,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                             >
                               <div
                                 class="col col-12 pa-0"
+                                tabindex="0"
                               >
                                 I'm a description shown as a paragraph on top of section
                               </div>
@@ -14481,6 +14776,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm an object with sections rendered in a vertical stepper. 
         </span>
@@ -14533,6 +14829,7 @@ exports[`Examples used as simple test cases Sections as stepper 1`] = `
                           >
                             <div
                               class="col col-12 pa-0"
+                              tabindex="0"
                             >
                               I'm a description shown as a paragraph on top of section
                             </div>
@@ -14733,6 +15030,7 @@ exports[`Examples used as simple test cases Sections as tabs 1`] = `
     >
       <div
         class="col col-12 pa-0"
+        tabindex="0"
       >
         I'm an object with sections rendered as tabs.
       </div>
@@ -14829,6 +15127,7 @@ exports[`Examples used as simple test cases Sections as tabs 1`] = `
                       >
                         <div
                           class="col col-12 pa-0"
+                          tabindex="0"
                         >
                           I'm a description shown as a paragraph on top of section
                         </div>
@@ -15013,6 +15312,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           Tabs with required fields 
         </span>
@@ -15278,6 +15578,7 @@ exports[`Examples used as simple test cases Sections validation 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           Panels with required fields 
         </span>
@@ -18601,7 +18902,7 @@ exports[`Examples used as simple test cases Selects with relative dependencies 1
             <!---->
           </div>
           <button
-            aria-label="I'm an array of objects neues Objekt hinzufuegen"
+            aria-label="I'm an array of objects neues Objekt hinzufügen"
             class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
             id="root--add-button"
             type="button"
@@ -18752,7 +19053,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                 Array 1
               </label>
               <button
-                aria-label="Array 1 neues Objekt hinzufuegen"
+                aria-label="Array 1 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp1--add-button"
                 type="button"
@@ -18803,8 +19104,8 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren Array 11"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren Array 1"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="arrayProp1-0--edit-button"
                           type="button"
                         >
@@ -18818,24 +19119,66 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="Array 1 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 1 copy"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-content-copy theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 1 paste"
+                            class="v-btn v-btn--disabled v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            disabled="disabled"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-content-paste theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 1 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -18919,8 +19262,8 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren Array 12"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren Array 1"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="arrayProp1-1--edit-button"
                           type="button"
                         >
@@ -18934,24 +19277,66 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="Array 1 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 1 copy"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-content-copy theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 1 paste"
+                            class="v-btn v-btn--disabled v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            disabled="disabled"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-content-paste theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 1 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -19026,7 +19411,7 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                 Array 2
               </label>
               <button
-                aria-label="Array 2 neues Objekt hinzufuegen"
+                aria-label="Array 2 neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp2--add-button"
                 type="button"
@@ -19077,8 +19462,8 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           class="spacer"
                         />
                         <button
-                          aria-label="Bearbeitungsmodus aktivieren Array 21"
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text vjsf-array-add-button"
+                          aria-label="Bearbeitungsmodus aktivieren Array 2"
+                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default default--text vjsf-array-add-button"
                           id="arrayProp2-0--edit-button"
                           type="button"
                         >
@@ -19092,24 +19477,66 @@ exports[`Examples used as simple test cases Share items across arrays 1`] = `
                           </span>
                         </button>
                         <div
-                          class="v-menu"
+                          class="row mr-1 ml-1"
                         >
-                          <!---->
-                        </div>
-                        <button
-                          class="v-btn v-btn--icon v-btn--round theme--light v-size--default ml-1"
-                          title="open menu"
-                          type="button"
-                        >
-                          <span
-                            class="v-btn__content"
+                          <button
+                            aria-label="Array 2 duplicate"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
                           >
-                            <i
-                              aria-hidden="true"
-                              class="v-icon notranslate mdi mdi-dots-vertical theme--light"
-                            />
-                          </span>
-                        </button>
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-plus-circle-multiple-outline theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 2 copy"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-content-copy theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 2 paste"
+                            class="v-btn v-btn--disabled v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            disabled="disabled"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-content-paste theme--light"
+                              />
+                            </span>
+                          </button>
+                          <button
+                            aria-label="Array 2 delete"
+                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default mr-1"
+                            type="button"
+                          >
+                            <span
+                              class="v-btn__content"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate mdi mdi-close-circle theme--light"
+                              />
+                            </span>
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div
@@ -19200,7 +19627,7 @@ exports[`Examples used as simple test cases Simple array with a required prop 1`
                 I'm an array of objects
               </label>
               <button
-                aria-label="I'm an array of objects neues Objekt hinzufuegen"
+                aria-label="I'm an array of objects neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="arrayProp--add-button"
                 type="button"
@@ -19346,6 +19773,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a tuple of 2 numbers 
         </span>
@@ -19473,6 +19901,7 @@ exports[`Examples used as simple test cases Tuples 1`] = `
       >
         <span
           class="py-2 title"
+          tabindex="0"
         >
           I'm a tuple of 2 strings, first one is required 
         </span>
@@ -19764,7 +20193,7 @@ exports[`Examples used as simple test cases infinite loop 1`] = `
                 Liste d'appels extérieurs
               </label>
               <button
-                aria-label="Liste d'appels extérieurs neues Objekt hinzufuegen"
+                aria-label="Liste d'appels extérieurs neues Objekt hinzufügen"
                 class="v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--light v-size--small primary vjsf-array-add-button ml-3"
                 id="webhooks--add-button"
                 type="button"
