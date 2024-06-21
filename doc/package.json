@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@koumoul/data-fair-search-widget": "^0.3.0",
-    "@koumoul/gh-pages-multi": "^0.6.0",
+    "@koumoul/gh-pages-multi": "^0.7.2",
     "@mdi/font": "^6.5.95",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/vuetify": "^1.12.3",
